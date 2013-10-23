@@ -17,3 +17,11 @@ def gen_urls():
 
 def cut_program(soup):
     return soup('div', 'program-box')[0]
+
+def get_events(program):
+    ################################################### TO DO
+    yield event
+
+def parse_event(event):
+    ################################################### TO DO
+    return parsed_event
